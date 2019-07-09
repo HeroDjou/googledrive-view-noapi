@@ -67,7 +67,7 @@ O PHP dentro do input retorna o estado de 'checked' para a opção selecionada -
     ?>
 </body>
 <script>
-// Atualizaa página informando qual botão foi pressionado
+// Atualiza a página informando qual botão foi pressionado
     function mudanivel(codigo) {
         window.location.href = '?nivel=' + codigo;
     }
