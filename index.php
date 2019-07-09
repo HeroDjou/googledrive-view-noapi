@@ -59,8 +59,8 @@ O PHP dentro do input retorna o estado de 'checked' para a opção selecionada -
         <input type="radio" name="view" value="grid" <?php echo $valendogrid ?>> Ver como Grid <br />
     </form>
 <!-- Botão que navega entre pastas, gerando um evento 'onclick' informando o nível da pasta -->
-    <input type="button" class="btn btn-primary btn-lg active" onclick="mudanivel(1)" value="Nível Anterior">
-    <input type="button" class="btn btn-primary btn-lg active" onclick="mudanivel(2)" value="Nível Posterior">
+    <input type="button" onclick="mudanivel(1)" value="Nível Anterior">
+    <input type="button" onclick="mudanivel(2)" value="Nível Posterior">
     <?php
 // retorna o layout do iframe
     echo $iframe;
