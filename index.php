@@ -34,8 +34,8 @@ if ($view == 'grid') {
 }
 
 //Aqui você informa os IDs das pastas, se forem muitos, cogite informar via Array
-$outronivelid = '1VEbadf0JTV4d9jdIhSs-9oAaC-4NntNm';
-$subnivelid =  '1vMWcAWs4aarNgfibmITMFYXSiaNRZZxd';
+$outronivelid = 'EXEMPLO_DE_ID_DE_PASTA1';
+$subnivelid =  'EXEMPLO_DE_ID_DE_PASTA2';
 
 //Após retornar qual pasta você quer exibir, informa a variável ID qual é
 switch ($nivelpagina) {
